@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://66b8e1ef3ce57325ac7864b0.mockapi.io/";
+const API_URL = "https://connections-api.goit.global/";
 
 // Функція для отримання контактів
 export const fetchContacts = async () => {
