@@ -4,7 +4,9 @@ import { createSelector } from "@reduxjs/toolkit";
 export const selectContacts = (state) => state.contacts.items;
 
 // Селектор для отримання значення фільтра зі стану
-export const selectFilter = (state) => state.contacts.filters.name;
+// selectors.js
+export const selectFilter = (state) => state.filters?.name || '';
+
 
 // Селектор для отримання стану завантаження контактів
 export const selectLoading = (state) => state.contacts.loading;

@@ -1,8 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-// Установіть базову URL-адресу для API
-axios.defaults.baseURL = "https://connections-api.goit.global";
+// базовий URL-адресу для API
+axios.defaults.baseURL = "https://66b8e1ef3ce57325ac7864b0.mockapi.io/";
 
 // Операція для отримання всіх контактів
 export const fetchContacts = createAsyncThunk(
